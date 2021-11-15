@@ -20,25 +20,9 @@ const Home = () => {
         }
       })
       .catch((err) => console.log(err));
-  });
+  },[]);
 
-  // const data = [
-  //   {
-  //     title: "HTML",
-  //     description:
-  //       "HTML is the standard markup language for creating web pages and web applications. It is used to create the structure of a web page, but it is not a programming language.",
-  //   },
-  //   {
-  //     title: "CSS",
-  //     description:
-  //       "CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML.",
-  //   },
-  //   {
-  //     title: "JavaScript",
-  //     description:
-  //       "JavaScript is a lightweight, interpreted programming language.",
-  //   },
-  // ];
+
 
   return (
     <div>
